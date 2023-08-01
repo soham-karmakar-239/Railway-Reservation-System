@@ -1,0 +1,71 @@
+body{
+    color: black;
+    background-image:url(../assets/images/train.jpg);
+    text-align: center;
+	background-repeat: no-repeat;
+    background-size: cover; 
+}
+/*.navbar{
+    background-color: white;
+    opacity: 0.75;
+    border-radius: 4px;
+}*/
+.mb-3 mt-3{
+	float: right;	
+}
+/*.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 10px 10px;
+}
+.navbar li a{
+    padding: 2px 2px;
+    text-decoration: none;
+}*/
+.navbar navbar-default{
+	opacity: .75;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.footer{
+    background-color: white;
+    opacity: 0.75;
+    position: fixed;
+    top: 90vh;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+.footer li{
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+#authentication-container, #planjourney-container, #securiy-question-container, #reset-password-container{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    opacity: .75;
+    padding: 2%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.forgetpassword a{
+	color: magenta;
+	margin: 10px;
+}
+
